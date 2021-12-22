@@ -8,8 +8,8 @@ regenerate: true
 ---
 
 ## wiki items
-
-* [[mathjax-latex]]
+* [[cargo]]
+* [[timeline]]
 
 ---
 
