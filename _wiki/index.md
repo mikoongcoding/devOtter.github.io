@@ -10,6 +10,8 @@ regenerate: true
 ## wiki items
 * [[cargo]]
 * [[timeline]]
+* [[new]]
+* 
 
 ---
 
