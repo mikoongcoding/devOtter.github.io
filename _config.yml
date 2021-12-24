@@ -1,16 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: 개발자 수달 Developer Otter
+url: "https://mikoongcoding.github.io"
 baseurl: ""
 description: >
-    기계인간 블로그
+    개발자 수달 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: skymikong@gmail.com
+author: 개발자 수달
+profile: 수달이 개발공부를 합니다.
+twitter_username: None
+github_username: mikoongcoding
 comment-support: utterances
 
 # Build settings
