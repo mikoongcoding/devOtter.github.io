@@ -11,7 +11,9 @@ regenerate: true
 * [[cargo]]
 * [[timeline]]
 * [[new]]
-* 
+* [[nvim-shortcuts]] 
+* Swift
+	* [[associatedtype]]
 
 ---
 
