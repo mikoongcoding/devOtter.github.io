@@ -3,11 +3,11 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2021-12-30 22:00:36 +0900
-updated : 2021-12-30 22:30:25 +0900
+updated : 2021-12-30 23:22:30 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[Swift]]
 latex   : false
 ---
 * TOC
@@ -27,3 +27,5 @@ public protocol CaseIterable {
     static var allCases: Self.AllCases { get }
 }
 ```
+
+휴 vimwiki 사용하기 꽤나 어렵네 ㅎㅎ

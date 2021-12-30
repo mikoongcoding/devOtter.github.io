@@ -4,15 +4,14 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-regenerate: true
+regenerate : true
 ---
 
 ## wiki items
-* [[cargo]]
 * [[timeline]]
 * [[new]]
 * [[nvim-shortcuts]] 
-* Swift
+* [[Swift]]
 	* [[associatedtype]]
 
 ---
