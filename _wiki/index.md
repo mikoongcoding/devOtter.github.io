@@ -13,7 +13,7 @@ regenerate : true
 * [[nvim-shortcuts]] 
 * [[Swift]]
 	* [[associatedtype]]
-
+* [[SwiftUI-diary]]
 ---
 
 ## blog posts
