@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2021-12-30 22:00:36 +0900
-updated : 2021-12-31 19:40:27 +0900
+updated : 2022-01-17 22:50:19 +0900
 tags    : 
 toc     : true
 public  : true
@@ -17,7 +17,7 @@ latex   : false
 
 CaseIterable protocol을 확인하다가 associatedtype이라는 처음 보는게 나왔다.
 
-``` Swift
+```Swift
 public protocol CaseIterable {
 
     /// A type that can represent a collection of all values of this type.

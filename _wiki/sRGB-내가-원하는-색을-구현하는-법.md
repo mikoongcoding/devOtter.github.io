@@ -3,11 +3,11 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 21:43:12 +0900
-updated : 2022-01-17 22:36:42 +0900
+updated : 2022-01-17 22:50:19 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[SwiftUI]]
 latex   : false
 ---
 * TOC
@@ -21,7 +21,7 @@ latex   : false
 2. Digital Color Meter를 실행한 상태에서 상단 메뉴 중 View > Display Values > as Percentage로 변경한다.
 
 3. 해당 값을 코드에 적용한 것 :
-{{{
+```
 LinearGradient(colors: [Color(red:0.83, green: 0.98, blue: 0.96)], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
-}}}
+```
