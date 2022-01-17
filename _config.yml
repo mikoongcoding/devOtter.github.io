@@ -37,24 +37,24 @@ collections:
         permalink: /:collection/:path/
 
 # Comment Service
-disqus:
-  id: johngrib
-  shortname: johngrib
+#disqus:
+#  id: johngrib
+#  shortname: johngrib
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: mikoongcoding/mikoongcoding.github.io
   issue-term: url
   label: Comment
   branch: master
 
-google_analytics:
-  ua: UA-110224147-1
+    #google_analytics:
+    #ua: UA-110224147-1
 
-google_adsense:
-  client: ca-pub-3675948545737694
+    #google_adsense:
+    #client: ca-pub-3675948545737694
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+    #blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
+    #edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
+    #issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
