@@ -8,6 +8,7 @@ regenerate : true
 ---
 
 ## wiki items
+* [[writing-doc-test]]
 * [[timeline]]
 * [[new]]
 * [[nvim-shortcuts]] 
