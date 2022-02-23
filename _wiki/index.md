@@ -14,8 +14,12 @@ regenerate : true
 * [[nvim-shortcuts]] 
 * [[Swift]]
 	* [[associatedtype]]
+	* [[Swift-부등호]]
+	* 
 * [[SwiftUI]]
 	* [[sRGB-내가-원하는-색을-구현하는-법]]
+	* [[Picker]]
+	* [[Section]]
 * [[SwiftUI-diary]]
 * [[내가-만들고-싶은-앱]]
 * [[this-blog-setting]]
