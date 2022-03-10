@@ -10,19 +10,15 @@ regenerate : true
 ## wiki items
 * [[writing-doc-test]]
 * [[timeline]]
-* [[new]]
 * [[nvim-shortcuts]] 
-* [[Swift]]
-	* [[associatedtype]]
-	* [[Swift-부등호]]
-	* 
-* [[SwiftUI]]
+* [[iOS]]
 	* [[sRGB-내가-원하는-색을-구현하는-법]]
 	* [[Picker]]
 	* [[Section]]
+	* [[Codable]]
 * [[SwiftUI-diary]]
-* [[내가-만들고-싶은-앱]]
 * [[this-blog-setting]]
+
 ---
 
 ## blog posts

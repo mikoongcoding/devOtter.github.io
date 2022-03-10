@@ -3,11 +3,11 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 21:43:12 +0900
-updated : 2022-01-17 22:50:19 +0900
+updated : 2022-03-10 21:38:22 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[SwiftUI]]
+parent  : [[iOS]]
 latex   : false
 ---
 * TOC
