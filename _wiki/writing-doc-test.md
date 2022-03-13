@@ -3,7 +3,7 @@ layout  : wiki
 title   : 위키문서를 작성하는 연습 
 summary : 요약을 적는 곳 
 date    : 2022-02-15 22:31:16 +0900
-updated : 2022-02-15 22:56:40 +0900
+updated : 2022-03-13 13:59:18 +0900
 tags    : tagTest 
 toc     : true
 public  : true
@@ -63,6 +63,11 @@ function Query_me(request) {
 
 ### 이미지도 삽입할 수 있어야 한다
 
+
+<img width="1512" alt="Screen Shot 2022-03-13 at 13 30 18" src="https://user-images.githubusercontent.com/50915397/158045570-ee3a25dc-f5e1-4478-8d52-d92532ff4623.png">
+
+
+깃헙 이슈에 이미지를 갖다 붙이면 생기는 링크인데, 이전과 달라진것같다. 일단 테스트..
 
 
 
