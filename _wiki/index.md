@@ -12,6 +12,7 @@ regenerate : true
 * [[timeline]]
 * [[nvim-shortcuts]] 
 * [[iOS]]
+	* [[SwiftUI-Previews]]
 	* [[sRGB-내가-원하는-색을-구현하는-법]]
 	* [[Picker]]
 	* [[Section]]
