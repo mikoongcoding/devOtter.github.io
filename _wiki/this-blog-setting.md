@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-13 21:48:30 +0900
+updated : 2022-03-13 21:59:38 +0900
 tags    : 
 toc     : true
 public  : true
@@ -40,3 +40,5 @@ chmod ug+x .git/hooks/*
 ```
 
 이 명령어를 실행했는데 이후로 안뜬다 그럼 훅이 제대로 실행된걸까?
+
+tool 폴더에 있는 pre-commit 파일을 그대로 갖다붙여넣었다.. 이번에는 될까?
