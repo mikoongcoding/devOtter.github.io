@@ -9,11 +9,8 @@ regenerate : true
 
 ## wiki items
 * [[writing-doc-test]]
-* [[timeline]]
-* [[nvim-shortcuts]] 
 * Xcode
 	* [[Code-Sense]](Xcode-Icons)
-	* 
 * [[iOS]]
 	* [[SwiftUI-Previews]]
 	* [[sRGB-내가-원하는-색을-구현하는-법]]
