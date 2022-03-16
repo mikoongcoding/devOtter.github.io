@@ -22,6 +22,7 @@ regenerate : true
 	* [[Identifiable]]
 * [[SwiftUI-diary]]
 * [[this-blog-setting]]
+	* [[random-button]]
 
 ---
 
