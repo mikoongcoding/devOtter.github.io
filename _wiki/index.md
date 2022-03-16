@@ -17,6 +17,7 @@ regenerate : true
 	* [[Picker]]
 	* [[Section]]
 	* [[Codable]]
+	* [[EnvironmentObject]]
 * Swift
 	* [[Identifiable]]
 * [[SwiftUI-diary]]

@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-13 21:59:38 +0900
+updated : 2022-03-13 22:02:27 +0900
 tags    : 
 toc     : true
 public  : true
@@ -42,3 +42,15 @@ chmod ug+x .git/hooks/*
 이 명령어를 실행했는데 이후로 안뜬다 그럼 훅이 제대로 실행된걸까?
 
 tool 폴더에 있는 pre-commit 파일을 그대로 갖다붙여넣었다.. 이번에는 될까?
+
+>
+env: node: No such file or directory
+_wiki/this-blog-setting.md
+./tool/save-images.sh: line 16: ag: command not found
+Success: 0, Fail: 0
+fatal: pathspec '_data' did not match any files
+[main 6ae8f66] 글 작성
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+>
+
+오 훅 돌았다! 돈것이 확실! 이제 저런.. 에러ㄴ들 처리하면 되겠다
