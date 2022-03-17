@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-17 23:09:45 +0900
+updated : 2022-03-17 23:15:45 +0900
 tags    : 
 toc     : true
 public  : true
@@ -67,3 +67,5 @@ fatal: pathspec '_data' did not match any files
 ## data/total-document-url-list.json 파일을 생성
 
 자동으로 json 파일이 만들어지는 것 같지 않아서 data 폴더에 mkdir 명령어로 파일을 생성했다. 이제 generateData.js가 돌면서 data/total-document-url-list.json파일에 내 문서목록을 적어주는 걸까?
+
+아이고 이건 폴더 만드는 명령어 였구나. vim 으로 파일 생성했다 공백줄을 추가하여..
