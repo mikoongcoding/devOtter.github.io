@@ -20,6 +20,8 @@ regenerate : true
 	* [[EnvironmentObject]]
 * Swift
 	* [[Identifiable]]
+	* [[filter]]
+	* [[ForEach]]
 * [[SwiftUI-diary]]
 * [[this-blog-setting]]
 	* [[random-button]]
