@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-13 22:02:27 +0900
+updated : 2022-03-17 23:09:45 +0900
 tags    : 
 toc     : true
 public  : true
@@ -24,6 +24,13 @@ latex   : false
 
 ## vimwiki md 파일 설정..
 
+```
+" let g:vimwiki_global_ext = 0
+```
+
+주석처리 했다.
+
+이유는 터미널에서 nvim을 치고 startify 화면이 나오는데 `\ww` 단축키로 들어가면 vimwiki로 인식된 index.md가 나오고, startify 에서 경로로 표시되어 있는 index.md를 들어가면 vimwiki를 사용할 수 없다. 그래서 주석처리했더니 이제 두 경우 모두 vimwiki로 사용할 수 있다.
 
 ## git hooks
 
@@ -54,3 +61,9 @@ fatal: pathspec '_data' did not match any files
 >
 
 오 훅 돌았다! 돈것이 확실! 이제 저런.. 에러ㄴ들 처리하면 되겠다
+
+기계인간님 깃헙에서 최신 save-images.sh 파일을 가져와서 붙여넣었다.
+
+## data/total-document-url-list.json 파일을 생성
+
+자동으로 json 파일이 만들어지는 것 같지 않아서 data 폴더에 mkdir 명령어로 파일을 생성했다. 이제 generateData.js가 돌면서 data/total-document-url-list.json파일에 내 문서목록을 적어주는 걸까?
