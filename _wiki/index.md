@@ -8,7 +8,9 @@ regenerate : true
 ---
 
 ## wiki items
-* [[writing-doc-test]]
+* Vim
+	* [[vim-shortcuts]]
+	* [[writing-doc-test]]
 * Xcode
 	* [[Code-Sense]](Xcode-Icons)
 * [[iOS]]
@@ -26,20 +28,4 @@ regenerate : true
 * [[this-blog-setting]]
 	* [[random-button]]
 
----
-
-## blog posts
-<div>
-    <ul>
-{% for post in site.posts %}
-    {% if post.public != false %}
-        <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-            </a>
-        </li>
-    {% endif %}
-{% endfor %}
-    </ul>
-</div>
 
