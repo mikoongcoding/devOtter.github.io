@@ -12,6 +12,7 @@ regenerate : true
 	* [[vim-shortcuts]]
 	* [[writing-doc-test]]
 * Xcode
+	* [[Xcode-help]]
 	* [[Code-Sense]](Xcode-Icons)
 * [[iOS]]
 	* [[SwiftUI-Previews]]
