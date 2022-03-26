@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-27 00:07:53 +0900
+updated : 2022-03-27 00:25:41 +0900
 tags    : 
 toc     : true
 public  : true
@@ -75,7 +75,7 @@ fatal: pathspec '_data' did not match any files
 ag command not found
 ```
 
-`git commit`할 때 이런 메세지가 떠서 `brew install the-silver-searcher`로 설치했더니 더이상 안뜬다.
+`git commit`할 때 이런 메세지가 떠서 `brew install the_silver_searcher`로 설치했더니 더이상 안뜬다.
 ## Node & NPM 설치
 
 ```
@@ -110,12 +110,12 @@ Use with node.js
 >
 Install module:
 npm istall yamljs
-
+>
 Use it:
 YAML = require('yamljs');
 >
 
-`fs`라는 모듈도 generateData.js에서 yamljs처럼 쓰고 있으니, npm install fs도 실행해보자.
+`fs`라는 모듈도 generateData.js에서 yamljs처럼 쓰고 있으니, `npm install fs`도 실행해보자.
 
 ## 드디어 기계인간님의 generateData.js가 잘 돌았다!
 ```
@@ -148,13 +148,20 @@ Success: 0, Fail: 0
 ```
 
 얼마나 보고싶던... 로그인가.. 바로 이걸 원했다..
-내가 쓴 코드도 아니어서, 며칠을 천천히 둘러보고 생각한 것 같다..
+내가 쓴 코드도 아니어서, 며칠에 걸쳐 천천히 둘러보고 생각한 것 같다..
 
 이제 내 투두리스트에 계속 있던
 >
 [ ] 상위문서 표시 parents page 이거 시급하다..
+
 [ ] total-document-url-list에 문서목록이 안쓰여진다. 매커니즘을 확인해봐야 한다.
+
 [ ] ag command 해결해야겠구나
 >
 이 세가지 모두 해결되는 걸까?!
 
+됐다!! total-document-url-list.json에 내 문서목록이 잘 쓰여졌고, 따라서 random 버튼도 정상적으로 작동한다! 엄청 기쁘다 
+
+이제 남은 투두는 상위문서표시.. 이것은 아직 안된다. 그리고 태그도 안되네.
+
+틈틈이 해야겠다.. 어쨌든 나는 이 위키가 아주 맘에 든다.
