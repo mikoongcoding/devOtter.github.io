@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-26 23:53:01 +0900
+updated : 2022-03-27 00:01:59 +0900
 tags    : 
 toc     : true
 public  : true
@@ -91,4 +91,30 @@ $ node -v
 
 $ npm -v
 ```
+
+### yamljs module 설치
+```
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'yamljs'
+```
+
+node를 설치하고 git commit 을 했더니(git commit에서 계속 걸리는 이유는 pre-commit이 도는데 거기에 generateData.js가 있고 이 js에서..yamljs랑 f..뭐시기가 있다.
+
+아무튼 이번 에러는 yamljs를 설치하면 될 것 같다.
+
+>
+Use with node.js
+>
+Install module:
+npm istall yamljs
+
+Use it:
+YAML = require('yamljs');
+>
+
+`fs`라는 모듈도 generateData.js에서 yamljs처럼 쓰고 있으니, npm install fs도 실행해보자.
+
 
