@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-27 00:01:59 +0900
+updated : 2022-03-27 00:07:53 +0900
 tags    : 
 toc     : true
 public  : true
@@ -117,4 +117,44 @@ YAML = require('yamljs');
 
 `fs`라는 모듈도 generateData.js에서 yamljs처럼 쓰고 있으니, npm install fs도 실행해보자.
 
+## 드디어 기계인간님의 generateData.js가 잘 돌았다!
+```
+❯ git commit -m "yamljs, fs npm 모듈 설치"
+The file "./data/tag_count.json" has been saved.
+The file "./data/total-document-url-list.json" has been saved.
+이미지경로를 교정할 문서 파일: [_wiki/this-blog-setting.md]
+생성할 디렉토리 경로: [./resource/wiki/this-blog-setting]
+Success: 0, Fail: 0
+[main b9224e2] yamljs, fs npm 모듈 설치
+ 21 files changed, 198 insertions(+), 4 deletions(-)
+ create mode 100644 data/metadata/Codable.json
+ create mode 100644 data/metadata/Code-Sense.json
+ create mode 100644 data/metadata/EnvironmentObject.json
+ create mode 100644 data/metadata/ForEach.json
+ create mode 100644 data/metadata/Identifiable.json
+ create mode 100644 data/metadata/Picker.json
+ create mode 100644 data/metadata/Section.json
+ create mode 100644 data/metadata/SwiftUI-Previews.json
+ create mode 100644 data/metadata/SwiftUI-diary.json
+ create mode 100644 data/metadata/Xcode-help.json
+ create mode 100644 data/metadata/filter.json
+ create mode 100644 data/metadata/index.json
+ create mode 100644 data/metadata/random-button.json
+ create mode 100644 "data/metadata/sRGB-\353\202\264\352\260\200-\354\233\220\355\225\230\353\212\224-\354\203\211\354\235\204-\352\265\254\355\230\204\355\225\230\353\212\224-\353\262\225.json"
+ create mode 100644 data/metadata/this-blog-setting.json
+ create mode 100644 data/metadata/vim-shortcuts.json
+ create mode 100644 data/metadata/writing-doc-test.json
+ rewrite data/total-document-url-list.json (100%)
+```
+
+얼마나 보고싶던... 로그인가.. 바로 이걸 원했다..
+내가 쓴 코드도 아니어서, 며칠을 천천히 둘러보고 생각한 것 같다..
+
+이제 내 투두리스트에 계속 있던
+>
+[ ] 상위문서 표시 parents page 이거 시급하다..
+[ ] total-document-url-list에 문서목록이 안쓰여진다. 매커니즘을 확인해봐야 한다.
+[ ] ag command 해결해야겠구나
+>
+이 세가지 모두 해결되는 걸까?!
 
