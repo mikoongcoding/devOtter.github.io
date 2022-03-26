@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2022-01-17 23:11:22 +0900
-updated : 2022-03-17 23:15:45 +0900
+updated : 2022-03-26 23:53:01 +0900
 tags    : 
 toc     : true
 public  : true
@@ -69,3 +69,26 @@ fatal: pathspec '_data' did not match any files
 자동으로 json 파일이 만들어지는 것 같지 않아서 data 폴더에 mkdir 명령어로 파일을 생성했다. 이제 generateData.js가 돌면서 data/total-document-url-list.json파일에 내 문서목록을 적어주는 걸까?
 
 아이고 이건 폴더 만드는 명령어 였구나. vim 으로 파일 생성했다 공백줄을 추가하여..
+
+## the silver searcher a.k.a Ag
+```
+ag command not found
+```
+
+`git commit`할 때 이런 메세지가 떠서 `brew install the-silver-searcher`로 설치했더니 더이상 안뜬다.
+## Node & NPM 설치
+
+```
+env: node: No such file or directory
+```
+
+위키에 글을 쓰고 `git commit`을 하면 위와 같은 메세지가 낑겨있었다.
+`brew install node`로 Node.js를 설치했다.
+
+잘 설치되었는지 확인은 아래 명령어로 terminal에서 확인한다.
+```
+$ node -v
+
+$ npm -v
+```
+
