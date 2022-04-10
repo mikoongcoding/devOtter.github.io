@@ -25,6 +25,7 @@ regenerate : true
 	* [[Identifiable]]
 	* [[filter]]
 	* [[ForEach]]
+	* [[guard]]
 * [[SwiftUI-diary]]
 * [[this-blog-setting]]
 	* [[random-button]]
